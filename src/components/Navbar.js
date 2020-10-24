@@ -29,16 +29,6 @@ export default class Navbar1 extends Component {
                   <input type="text" placeholder="" expandable="true" />
               </Row>
               <Row>
-                 {bool?
-                 <Link to=""/>
-                 :
-                 <Link to="/cart" style={{ textDecoration: 'none' }}>
-                    <Col className="Fnt2 ">
-                        Cart
-                     </Col>
-                 </Link>}
-              </Row>
-              <Row>
                    {bool?
                       <Link to="/login" style={{ textDecoration: 'none' }}>
                           <Col className="Fnt4" >
