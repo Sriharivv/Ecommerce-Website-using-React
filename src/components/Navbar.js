@@ -28,21 +28,6 @@ export default class Navbar1 extends Component {
               <Row className="SearchBar" >
                   <input type="text" placeholder="" expandable="true" />
               </Row>
-              <Row>
-                   {bool?
-                      <Link to="/login" style={{ textDecoration: 'none' }}>
-                          <Col className="Fnt4" >
-                              Login
-                           </Col>
-                      </Link>
-                            :
-                      <Link  style={{ textDecoration: 'none' }}>
-                          <Col className="Fnt4" onClick={value.showModal} style={{ textDecoration: 'none' }}>
-                            Log Out
-                          </Col>
-                      </Link>
-                    }
-                </Row>
             </Container>
           </Navbar>
           )
